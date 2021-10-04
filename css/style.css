@@ -1240,13 +1240,20 @@ ul#myTab{
 .carousel-item{
    height: 365px;
 }
+
+@media (max-width: 768px) {
+    .carousel-item{
+        height: 270px;
+     }
+}
 @media (max-width: 460px) {
     .carousel-item{
-        height: 280px;
+        height: 200px;
      }
 }
 .carousel-item img{
     height: 100%;
+    
 }
 .carousel-control-next{
     right: 160px;
