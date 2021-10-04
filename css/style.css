@@ -1218,6 +1218,9 @@ ul#myTab{
 
 .select-tinh{
     width: max-content !important;
+    border: 1px solid #1C476D;
+    color: #1C476D;
+    font-weight: bold;
 }
 
 .color-icon-yl{
@@ -1234,7 +1237,17 @@ ul#myTab{
     top: unset !important;
     width: unset !important;
 }
-
+.carousel-item{
+   height: 365px;
+}
+@media (max-width: 460px) {
+    .carousel-item{
+        height: 280px;
+     }
+}
+.carousel-item img{
+    height: 100%;
+}
 .carousel-control-next{
     right: 160px;
 }
@@ -1297,23 +1310,47 @@ border-bottom:  1px solid #1C476D;
     transition: 0.8s;
     font-weight: bold;
     border-radius: 4px;
-    line-height: 35px;
+    line-height: 18px;
+    opacity: 0.4;
 }
 .title-admissions{
     font-size: 40px;
     border-bottom: 5px solid #F0CB46;
-    width: 400px;
+    width: 390px;
     font-weight: bold;
     color: #1C476D;
 }
-@media (max-width: 460px) {
+@media (max-width: 600px) {
     .title-admissions{   
-        width: 300px;
-        font-size: 30px;
+        width: 230px;
+        font-size: 25px;
+        border-bottom: 3px solid #F0CB46;
     }
     .admissions_banner{
         height: 200px;
     }
+    .admissions_slider {
+        padding: 0 0 50px;
+    }
+    .title-news{
+        width: 175px;
+        font-size: 25px;
+        border-bottom: 3px solid #F0CB46;
+    }
+    .title-learn{
+        width: 180px;
+        font-size: 25px;
+        border-bottom: 3px solid #F0CB46;
+    }
+    .padding-top{
+        padding: 30px;
+    }
+    .title-hoctuxa {
+        width: 125px;
+        font-size: 25px;
+        border-bottom: 3px solid #F0CB46;
+    }
+
 }
 
 #video{
@@ -1378,12 +1415,99 @@ line-height: 28px;
 text-transform: uppercase;
 color: #1C476D;
 }
-@media (max-width: 460px) {
+@media (max-width: 600px) {
     .text-contact{
     font-size: 15px;
  
     }
+    .title-video {
+        width: 70px;
+        font-size: 25px;
+        border-bottom: 3px solid #F0CB46;
+    }
 }
 .slick-arrow:hover{
-    opacity: 0.4;
+    opacity: 1;
+}
+.register-email {
+    display: inline-flex;
+}
+
+.advise {
+    display: flex;
+}
+
+.email-icon {
+    font-size: 35px;
+    color: #1C476D;
+}
+
+.advise-registor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #1C476D;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.form-register {
+    float: right;
+    margin-top: -9px;
+}
+
+.form__row {
+    display: flex;
+}
+
+.form__row_border {
+    background: #1C476D;
+    border: 1px solid #2D3573;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.form-input {
+    width: 340px;
+    height: 50px;
+    flex: 1;
+    background: #1C476D;
+    border: 1px solid #2D3573;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.form-input::placeholder {
+    color: #FFFFFF;
+    padding: 10px 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.icon-send {
+    color: #FFFFFF;
+}
+
+.advise-registor-email {
+    margin-bottom: 40px;
+}
+@media (max-width: 600px) {
+    .form-input {
+        
+    width: 225px;
+
+    }
+    .form-register {
+        margin-top: 0;
+    }
+    .advise-registor {
+        font-size: 18px;
+ 
+    }
+
 }

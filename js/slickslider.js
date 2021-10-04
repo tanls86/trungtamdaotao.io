@@ -7,8 +7,8 @@ $(document).ready(function () {
            autoplay: true,
           autoplaySpeed: 3000,
           easing: 'easeOutElastic',
-          prevArrow:'<button class="slick-prev slick-arrow admissions_arrow" aria-label="Previous" type="button" ><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>',
-          nextArrow:'<button class="slick-next slick-arrow admissions_arrow" aria-label="Next" type="button" ><span class="carousel-control-next-icon" aria-hidden="true"></span></button>'
+          prevArrow:'<button class="slick-prev slick-arrow admissions_arrow" aria-label="Previous" type="button" ><img src="./images/pre.png" ></button>',
+          nextArrow:'<button class="slick-next slick-arrow admissions_arrow" aria-label="Next" type="button" ><img src="./images/next.png" ></button>'
           ,
   
         responsive: [
@@ -44,8 +44,8 @@ $(document).ready(function () {
           autoplay: true,
           autoplaySpeed: 4000,
           easing: 'easeOutElastic',
-          prevArrow:'<button class="slick-prev slick-arrow video_arrow" aria-label="Previous" type="button" ><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>',
-          nextArrow:'<button class="slick-next slick-arrow video_arrow" aria-label="Next" type="button" ><span class="carousel-control-next-icon" aria-hidden="true"></span></button>'
+          prevArrow:'<button class="slick-prev slick-arrow video_arrow" aria-label="Previous" type="button" ><img src="./images/pre.png" ></button>',
+          nextArrow:'<button class="slick-next slick-arrow video_arrow" aria-label="Next" type="button" ><img src="./images/next.png" ></button>'
           ,
   
         responsive: [
