@@ -1,0 +1,70 @@
+$(document).ready(function () {
+    $('.admissions_slider').slick({
+          infinite: true,
+           lazyLoad: 'ondemand',
+          slidesToShow: 4,
+          slidesToScroll: 4,
+           autoplay: true,
+          autoplaySpeed: 3000,
+          easing: 'easeOutElastic',
+          prevArrow:'<button class="slick-prev slick-arrow admissions_arrow" aria-label="Previous" type="button" ><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>',
+          nextArrow:'<button class="slick-next slick-arrow admissions_arrow" aria-label="Next" type="button" ><span class="carousel-control-next-icon" aria-hidden="true"></span></button>'
+          ,
+  
+        responsive: [
+  {
+      breakpoint: 1024,
+      settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+      }
+  },
+  {
+      breakpoint: 600,
+      settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+      }
+  },
+  {
+      breakpoint: 480,
+      settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+      }
+  }
+  
+  ]
+      });
+      $('.video_slider').slick({
+          infinite: true,
+           lazyLoad: 'ondemand',
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          easing: 'easeOutElastic',
+          prevArrow:'<button class="slick-prev slick-arrow video_arrow" aria-label="Previous" type="button" ><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>',
+          nextArrow:'<button class="slick-next slick-arrow video_arrow" aria-label="Next" type="button" ><span class="carousel-control-next-icon" aria-hidden="true"></span></button>'
+          ,
+  
+        responsive: [
+  {
+      breakpoint: 1024,
+      settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+      }
+  },
+  {
+      breakpoint: 768,
+      settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+      }
+  }
+  
+  ]
+      });
+  })
+  
