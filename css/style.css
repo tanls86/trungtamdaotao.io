@@ -1342,15 +1342,19 @@ border-bottom:  1px solid #1C476D;
         font-size: 25px;
         border-bottom: 3px solid #F0CB46;
     }
-    .padding-top{
-        padding: 30px;
-    }
+   
     .title-hoctuxa {
         width: 125px;
         font-size: 25px;
         border-bottom: 3px solid #F0CB46;
     }
 
+}
+
+@media (max-width: 765px) {
+    .padding-top{
+        padding: 30px;
+    }
 }
 
 #video{
