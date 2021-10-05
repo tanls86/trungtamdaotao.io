@@ -1237,10 +1237,12 @@ ul#myTab{
     top: unset !important;
     width: unset !important;
 }
-.carousel-item{
+/* .carousel-item{
    height: 365px;
+} */
+.margin-left{
+    padding: 0 30px;
 }
-
 @media (max-width: 768px) {
     .carousel-item{
         height: 270px;
@@ -1273,11 +1275,11 @@ ul#myTab{
     bottom:0;
 }
 .admissions_slider .slick-prev{
-    right: 200px;
+    right: 45px;;
     left: unset !important; 
 }
 .admissions_slider .slick-next{
-    right: 160px;
+    right: 8px;
    
 }
 .admissions_banner{
@@ -1351,7 +1353,7 @@ border-bottom:  1px solid #1C476D;
     }
    
     .title-hoctuxa {
-        width: 125px;
+        width: 120px;
         font-size: 25px;
         border-bottom: 3px solid #F0CB46;
     }
@@ -1375,7 +1377,7 @@ border-bottom:  1px solid #1C476D;
 .title-video{
     font-size: 40px;
     border-bottom: 5px solid #F0CB46;
-    width: 160px;
+    width: 120px;
     font-weight: bold;
     color: #1C476D;
 }
@@ -1399,12 +1401,12 @@ border-bottom:  1px solid #1C476D;
     top:-50px;
 }
 .video_slider .slick-prev{
-    right: 90px;
+    right: 57px;
     left: unset !important; 
  
 }
 .video_slider .slick-next{
-    right: 50px;
+    right: 20px;
  
 }
 .input_contact{
