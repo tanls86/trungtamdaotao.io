@@ -1127,9 +1127,12 @@ a, a:hover {
 
 .title-news{
     font-size: 40px;
-    border-bottom: 5px solid #F0CB46;
-    width: 260px;
     font-weight: bold;
+   
+}
+.title-news a{
+    border-bottom: 5px solid #F0CB46;
+    color: white;
 }
 .border-bt {
     border-bottom: 1px solid #dee2e6 !important;
@@ -1174,11 +1177,13 @@ a, a:hover {
 
 .title-learn{
     font-size: 40px;
-    border-bottom: 5px solid #f0cc46;
-    width: 265px;
     font-weight: bold;
+}
+.title-learn a{
+    border-bottom: 5px solid #f0cc46;
     color: #1C476D;
 }
+
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: #495057 !important;
@@ -1211,11 +1216,14 @@ ul#myTab{
 
 .title-hoctuxa{
     font-size: 30px;
-    border-bottom: 5px solid #f0cc46;
-    width: 140px;
     font-weight: bold;
+
+}
+.title-hoctuxa a{
+    border-bottom: 5px solid #f0cc46;
     color: #1C476D;
 }
+
 
 .select-tinh{
     width: max-content !important;
@@ -1326,16 +1334,17 @@ border-bottom:  1px solid #1C476D;
 }
 .title-admissions{
     font-size: 40px;
-    border-bottom: 5px solid #F0CB46;
-    width: 366px;
+
     font-weight: bold;
+  
+}
+.title-admissions a{
+    border-bottom: 5px solid #F0CB46;
     color: #1C476D;
 }
 @media (max-width: 600px) {
     .title-admissions{   
-        width: 230px;
-        font-size: 25px;
-        border-bottom: 3px solid #F0CB46;
+        font-size: 25px;   
     }
     .admissions_banner{
         height: 200px;
@@ -1344,20 +1353,14 @@ border-bottom:  1px solid #1C476D;
         padding: 0 0 50px;
     }
     .title-news{
-        width: 175px;
         font-size: 25px;
-        border-bottom: 3px solid #F0CB46;
     }
     .title-learn{
-        width: 180px;
         font-size: 25px;
-        border-bottom: 3px solid #F0CB46;
     }
    
     .title-hoctuxa {
-        width: 120px;
-        font-size: 25px;
-        border-bottom: 3px solid #F0CB46;
+        font-size: 25px;     
     }
 
 }
@@ -1378,9 +1381,12 @@ border-bottom:  1px solid #1C476D;
 }
 .title-video{
     font-size: 40px;
-    border-bottom: 5px solid #F0CB46;
-    width: 100px;
+  
     font-weight: bold;
+  
+}
+.title-video a{
+    border-bottom: 5px solid #F0CB46;
     color: #1C476D;
 }
 .video_info h5{
@@ -1437,9 +1443,8 @@ color: #1C476D;
  
     }
     .title-video {
-        width: 70px;
         font-size: 25px;
-        border-bottom: 3px solid #F0CB46;
+       
     }
 }
 .slick-arrow:hover{
