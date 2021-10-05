@@ -21,6 +21,7 @@ background: transparent;
 }
 .about-content{
     padding: 25px 0;
+    text-align: justify;
 }
 .list-category{
     background: #F4F6F8;
