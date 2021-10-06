@@ -23,6 +23,9 @@ background: transparent;
     padding: 25px 0;
     text-align: justify;
 }
+.about-content p{
+    color:#4A4A4A ;
+}
 .list-category{
     background: #F4F6F8;
     border: 1px solid #CFCFCF;
@@ -39,6 +42,13 @@ font-weight: bold;
 .category-item{
     padding:10px 20px;
     border-bottom:  1px dashed #CFCFCF;
+}
+a:last-child li{
+    border-bottom: none;
+}
+.color-icon-bl{
+    color: black;
+    font-size: 10px;
 }
 .category-item-active{
     padding:10px 20px;

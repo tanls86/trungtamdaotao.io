@@ -744,6 +744,7 @@ a, a:hover {
 
     .nav-item{
         width: 100% !important;
+        border-bottom: 1px solid gray !important;
     }
 
     ul#myTab {
@@ -1187,10 +1188,13 @@ a, a:hover {
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: #495057 !important;
-    border-bottom: 2px solid #f0cc46 !important;
+    
     border: 0;
 }
-
+.nav-tabs .nav-link.active span, .nav-tabs .nav-item.show .nav-link span{
+    border-bottom:3px solid #f0cc46 !important ;
+    padding-bottom: 10px;
+}
 ul#myTab{
     margin-bottom: 40px !important;
 }
@@ -1230,6 +1234,7 @@ ul#myTab{
     border: 1px solid #1C476D;
     color: #1C476D;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .color-icon-yl{
@@ -1452,6 +1457,7 @@ color: #1C476D;
 }
 .register-email {
     display: inline-flex;
+    margin: 0 auto;
 }
 
 .advise {
@@ -1476,7 +1482,7 @@ color: #1C476D;
 
 .form-register {
     float: right;
-    margin-top: -9px;
+margin:0 auto;
 }
 
 .form__row {
@@ -1531,4 +1537,21 @@ color: #1C476D;
  
     }
 
+}
+.hoctuxa-flex{
+    flex-flow: wrap;
+}
+@media (max-width: 375px) {
+    .video_banner {
+        height: 200px;
+    }
+    .form-input {
+        width: 170px;
+    }
+    .advise-registor {
+        font-size: 13px;
+    }
+    .form-input::placeholder {
+        font-size: 13px;
+    }
 }
