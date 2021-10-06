@@ -1,8 +1,7 @@
 $(document).ready(function () {
     $('#mySelect').on('change', function (e) {
-        var $optionSelected = $("option:selected", this);
-        $optionSelected.tab('show');
-});
+        $('#select-tinh li a').eq($(this).val()).tab('show'); 
+    });
      
     $('.admissions_slider').slick({
           infinite: true,
