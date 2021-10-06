@@ -471,51 +471,64 @@
         <div class="col-md-6">
           <div class="d-flex justify-content-between padding-top">
            <p class="title-hoctuxa text-nowrap">  <a href="#">Học từ xa</a></p> 
-            <select class="form-control select-tinh mt-2">
-              <option value="">Quảng Bình</option>
+            <select class="form-control select-tinh mt-2" id="mySelect">
+            <option data-target="#quang-binh">Quảng Bình</option>
+              <option data-target="#da-nang">Đà Nẵng</option>
+              <option data-target="#ha-tinh">Hà Tĩnh</option>
             </select>
           </div>
-          <div>
-            <div class="mb-4 d-flex">
-              <i class="fas fa-square mr-2 mt-1 color-icon-yl"></i>
+          <div class="tab-content">
+            <div class="tab-pane active" id="quang-binh">
               <div>
-                <a href="#">     <p class="mb-2 title-hoctructuyen">Tuyển sinh đại học khóa 27
-                  hình thức đào tạo từ xa tại Quảng Bình</p></a>
-                <p class="content">Đại học Đà Nẵng tuyển sinh đại học khóa 27
-                  hình thức đào tạo từ xa trực tuyến thông tin sau. Trình độ
-                  đào tạo, hình thức đào tạo và văn bằng tốt nghiệp. Trình
-                  độ đào tạo: Đại học. Hình thức đào tạo...</p>
-              </div>
-            </div>
-            <div>
-              <div class="mb-4 d-flex">
-                <i class="fas fa-square mr-2 mt-1 color-icon-yl"></i>
-                <div>
-                  <a href="#"> <p class="mb-2 title-hoctructuyen">Tuyển sinh đại học khóa 27
-                    hình thức đào tạo từ xa tại Quảng Trị</p></a> 
-                  <p class="content">Năm 2020, Đại học Đà Nẵng tuyển sinh đại
-                    học hệ từ xa theo phương thức đào tạo trực tuyến khóa 27:
-                    ngành Ngôn ngữ Anh và ngành Luật: lớp AV27.1B1, AV27.1B2,
-                    LH27.1B1, LH27.1B2 với các thông tin sau,...<p>
-                    </div>
+                <div class="mb-4 d-flex">
+                  <i class="fas fa-square mr-2 mt-1 color-icon-yl"></i>
+                  <div>
+                    <a href="#">     <p class="mb-2 title-hoctructuyen">Tuyển sinh đại học khóa 27
+                      hình thức đào tạo từ xa tại Quảng Bình</p></a>
+                    <p class="content">Đại học Đà Nẵng tuyển sinh đại học khóa 27
+                      hình thức đào tạo từ xa trực tuyến thông tin sau. Trình độ
+                      đào tạo, hình thức đào tạo và văn bằng tốt nghiệp. Trình
+                      độ đào tạo: Đại học. Hình thức đào tạo...</p>
                   </div>
                 </div>
                 <div>
                   <div class="mb-4 d-flex">
                     <i class="fas fa-square mr-2 mt-1 color-icon-yl"></i>
                     <div>
-                      <a href="#">      <p class="mb-2 title-hoctructuyen">Thông báo tuyển sinh
-                        đại học khóa 27 hình thức đào tạo từ xa tại Huế</p></a> 
-                      <p class="content">Năm 2015, Đại học Đà Nẵng tuyển sinh
-                        đào tạo Chứng chỉ Tiếng Anh Giao tiếp ngành Điều dưỡng
-                        (Communicative English in Nursing) với các thông tin
-                        sau. Văn bằng và hình thức đào tạo...</p>
+                      <a href="#"> <p class="mb-2 title-hoctructuyen">Tuyển sinh đại học khóa 27
+                        hình thức đào tạo từ xa tại Quảng Trị</p></a> 
+                      <p class="content">Năm 2020, Đại học Đà Nẵng tuyển sinh đại
+                        học hệ từ xa theo phương thức đào tạo trực tuyến khóa 27:
+                        ngành Ngôn ngữ Anh và ngành Luật: lớp AV27.1B1, AV27.1B2,
+                        LH27.1B1, LH27.1B2 với các thông tin sau,...<p>
+                        </div>
+                      </div>
                     </div>
+                    <div>
+                      <div class="mb-4 d-flex">
+                        <i class="fas fa-square mr-2 mt-1 color-icon-yl"></i>
+                        <div>
+                          <a href="#">      <p class="mb-2 title-hoctructuyen">Thông báo tuyển sinh
+                            đại học khóa 27 hình thức đào tạo từ xa tại Huế</p></a> 
+                          <p class="content">Năm 2015, Đại học Đà Nẵng tuyển sinh
+                            đào tạo Chứng chỉ Tiếng Anh Giao tiếp ngành Điều dưỡng
+                            (Communicative English in Nursing) với các thông tin
+                            sau. Văn bằng và hình thức đào tạo...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn view-more-text-white">Xem thêm <i class="fas
+                        fa-arrow-right"></i></div>
                   </div>
-                </div>
-                <div class="btn view-more-text-white">Xem thêm <i class="fas
-                    fa-arrow-right"></i></div>
-              </div>
+            </div>
+            <div class="tab-pane" id="da-nang">.
+              Đà Nẵng
+            </div>
+            <div class="tab-pane" id="ha-tinh">.
+             Hà Tĩnh
+            </div>
+          </div>
+             
             </div>
           </div>
         </section>
@@ -696,6 +709,7 @@
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"></script>     
           <script src="./js/slickslider.js"></script>
           <script>
+         
       var mybutton = document.getElementById("myBtn");
 
       window.onscroll = function() {scrollFunction()};

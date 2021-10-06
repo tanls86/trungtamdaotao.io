@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    $('#mySelect').on('change', function (e) {
+        var $optionSelected = $("option:selected", this);
+        $optionSelected.tab('show');
+});
+     
     $('.admissions_slider').slick({
           infinite: true,
            lazyLoad: 'ondemand',
