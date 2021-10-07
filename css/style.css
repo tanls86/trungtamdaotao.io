@@ -573,7 +573,7 @@ a, a:hover {
         display: inline-block;
         text-decoration: none !important;
     }
-
+  
     .text-document{
         padding-left: 10px !important;
     }
@@ -649,12 +649,16 @@ a, a:hover {
 .menu-mobile {
     display: none;
 }
-
+.nav-tabs .nav-item {
+    margin: 0 auto !important;
+}
 @media (max-width: 768px) {
     .menu-mobile {
         display: block;
     }
-
+    .admissions_banner {
+        height: 400px !important;
+    }
     #search-and-regis {
         display: none !important;
     }
@@ -743,10 +747,12 @@ a, a:hover {
     }
 
     .nav-item{
-        width: 100% !important;
-        border-bottom: 1px solid gray !important;
+        /* width: 100% !important; */
+        /* border-bottom: 1px solid gray !important; */
+        /* margin: 0 auto; */
     }
 
+  
     ul#myTab {
         margin-bottom: 0 !important;
     }
@@ -774,6 +780,10 @@ a, a:hover {
     .carousel-control-prev {
         right: 105px !important;
         left: unset !important;
+    }
+    .nav-tabs {
+        /* border-bottom: 1px solid #dee2e6; */
+        border: none;
     }
 }
 
@@ -1188,13 +1198,13 @@ a, a:hover {
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: #495057 !important;
-    
+    border-bottom:3px solid #f0cc46 !important ;
     border: 0;
 }
-.nav-tabs .nav-link.active span, .nav-tabs .nav-item.show .nav-link span{
+/* .nav-tabs .nav-link.active span, .nav-tabs .nav-item.show .nav-link span{
     border-bottom:3px solid #f0cc46 !important ;
     padding-bottom: 10px;
-}
+} */
 ul#myTab{
     margin-bottom: 40px !important;
 }
@@ -1266,6 +1276,10 @@ ul#myTab{
     .carousel-item{
         height: 200px;
      }
+     .admissions_banner{
+        height: 200px !important;
+    }
+    
 }
 .carousel-item img{
     height: 100%;
@@ -1274,6 +1288,7 @@ ul#myTab{
 .carousel-control-next{
     right: 160px;
 }
+
 
 .carousel-control-prev {
     right: 195px;
@@ -1351,9 +1366,6 @@ border-bottom:  1px solid #1C476D;
     .title-admissions{   
         font-size: 25px;   
     }
-    .admissions_banner{
-        height: 200px;
-    }
     .admissions_slider {
         padding: 0 0 50px;
     }
@@ -1370,7 +1382,7 @@ border-bottom:  1px solid #1C476D;
 
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
     .padding-top{
         padding: 30px;
     }
