@@ -1212,7 +1212,7 @@ a, a:hover {
 }
 .nav-tabs .nav-link.active span, .nav-tabs .nav-item.show .nav-link span{
     border-bottom:3px solid #f0cc46 !important ;
-    padding-bottom: 10px;
+    padding-bottom: 11px;
 }
 ul#myTab{
     margin-bottom: 40px !important;
