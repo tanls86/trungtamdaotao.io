@@ -65,12 +65,39 @@ a:last-child li{
 .document{
     padding: 10px 10px;
 }
+.document {
+    font-size: 1em;
+   } 
 .text-document p, .text-document a {
     white-space: normal !important;
 }
-@media (max-width: 985px) {
-    .document p{
-     font-size: 1.5em;
+.img-daotao {
+    width: 40px ;
+    height: 40px;
+}
+
+@media (max-width: 1024px) {
+  .document {
+    font-size: 0.7em;
+   } 
+    
+    
+}
+
+@media (max-width: 991.98px) {
+    .document {
+     font-size: 1.5em ;
+    }
+    .document{
+        padding: 10px 40px;
+    }
+}
+@media (max-width: 768px) {
+    .document {
+     font-size: 1em ;
+    }
+    .document{
+        padding: 10px 10px;
     }
 }
 .share{
