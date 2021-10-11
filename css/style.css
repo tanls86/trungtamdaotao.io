@@ -1567,7 +1567,7 @@ margin:0 auto;
             line-height: 17px;
             padding-top: 0 !important;
         }
-}
+} 
 @media (max-width: 375px) {
     .video_banner {
         height: 200px;

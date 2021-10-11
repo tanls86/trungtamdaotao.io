@@ -65,21 +65,19 @@ a:last-child li{
 .document{
     padding: 10px 10px;
 }
-.document {
-    font-size: 1em;
-   } 
+
 .text-document p, .text-document a {
     white-space: normal !important;
 }
-.img-daotao {
-    width: 40px ;
-    height: 40px;
-}
 
-@media (max-width: 1024px) {
-  .document {
+.document {
     font-size: 0.7em;
    } 
+@media (max-width: 1024px) {
+    .img-daotao {
+        width: 40px ;
+        height: 40px;
+    }
     
     
 }
