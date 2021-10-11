@@ -72,14 +72,10 @@ a:last-child li{
 
 .document {
     font-size: 0.7em;
-   } 
-@media (max-width: 1024px) {
-    .img-daotao {
-        width: 40px ;
-        height: 40px;
-    }
-    
-    
+ } 
+ .img-daotao {
+    width: 40px ;
+    height: 40px;
 }
 
 @media (max-width: 991.98px) {
@@ -88,6 +84,10 @@ a:last-child li{
     }
     .document{
         padding: 10px 40px;
+    }
+    .img-daotao {
+        width: 54px ;
+        height: 54px;
     }
 }
 @media (max-width: 768px) {
