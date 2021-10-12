@@ -50,10 +50,10 @@ a:last-child li{
     color: black;
     font-size: 10px;
 }
-.category-item-active{
-    padding:10px 20px;
+.list-category .active{
     background: #1C476D;
     color: #FFFFFF;
+    border:none !important;
 
 }
 .tieudechung{
