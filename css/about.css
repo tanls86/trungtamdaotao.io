@@ -56,8 +56,13 @@ a:last-child li{
     color: #FFFFFF;
 
 }
-.title-video{
+.tieudechung{
     font-size: 24px;
+    font-weight: bold;
+}
+.tieudechung a{
+    border-bottom: 5px solid #F0CB46;
+    color: #1C476D;
 }
 .video_banner{
     height: auto;
@@ -71,12 +76,18 @@ a:last-child li{
 }
 
 .document {
-    font-size: 0.7em;
+    font-size: 0.9em;
  } 
  .img-daotao {
     width: 40px ;
     height: 40px;
 }
+@media (max-width: 1024px) {
+    .document {
+     font-size: 0.7em ;
+    }
+}
+
 
 @media (max-width: 991.98px) {
     .document {
